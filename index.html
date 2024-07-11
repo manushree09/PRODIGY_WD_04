@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Manushree Pande</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="container">
+        <div class="intro">
+            <h2>Welcome to My Portfolio!</h2>
+            <p>I am a passionate web developer with experience in creating dynamic and responsive websites. Check out my projects and get to know more about me.</p>
+        </div>
+    </section>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Having excellent problem-solving skills and an analytical
+            approach, I am always curious to learn new things and
+            upgrade my skills to stay up-to-date in the industry.
+            A passionate professional with great interpersonal and
+            communication skills. My journey in web development started during my college years, and I have been honing my skills ever since.</p>
+        <h3>Education</h3>
+        <ul>
+            <li>I am a 3rd Year student pursuing B.Tech in Computer Science(Internet of Things & Intelligent System) from Manipal University Jaipur</li>
+        </ul>
+        <h3>Certifications</h3>
+        <ul>
+            <li>Diploma in C programming</li>
+            <li>HTML, CSS, JavaScript for Web Developers (Coursera)</li>
+        </ul>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p><strong>To-Do List:</strong> Using HTML, CSS, JavaScript, MySQL, PHP (XAMPP Server).</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p><strong>Book Store:</strong> Website using HTML, CSS, JavaScript.</p>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you have any questions or want to work together, feel free to reach out!</p>
+        <form action="submit-form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br></br>
+            <input type="email" name="email" placeholder="Your Email" required><br></br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br></br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Manushree Pande. All rights reserved.</p>
+        </div>
+    </footer>
+    <button id="back-to-top" onclick="scrollToTop()">Top</button>
+    <script src="script.js"></script>
+</body>
+</html>
